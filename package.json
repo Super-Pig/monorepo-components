@@ -1,0 +1,8 @@
+{
+  "name": "monorepo-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Super-Pig/monorepo-components.git",
+  "author": "Super-Pig <250631521@qq.com>",
+  "license": "MIT"
+}
