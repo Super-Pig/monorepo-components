@@ -1,0 +1,11 @@
+{
+  "name": "-button",
+  "version": "1.0.0",
+  "author": "Super-Pig <250631521@qq.com>",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "license": "MIT",
+  "scripts": {
+    "del": "rimraf dist"
+  }
+}

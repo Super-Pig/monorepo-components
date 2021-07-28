@@ -10,7 +10,8 @@
 
 - 自动安装
   - npx -p @storybook/cli sb init --type react
-  - yarn add react
+  - yarn add react -W
+  - yarn add react-dom -W
 
 - 手动安装
 
@@ -23,7 +24,7 @@
 ```
 "private": true,
 "workspaces": [
-  "package/*"
+  "packages/*"
 ]
 ```
 
@@ -94,10 +95,6 @@ yarn add xxx -D -W
 
 `yarn add plop -D -W`
 
-### package.json 配置命令
+### 运行 plop
 
-```
-"scripts": {
-  "plop": "plop"
-}
-```
+`yarn plop`
