@@ -70,6 +70,9 @@
 - rollup
 - rollup-plugin-terser
 - rollup-plugin-postcss
+- rollup-plugin-babel
+- babel-loader
+- @babel/core
 - @babel/preset-react
 - @babel/preset-env
 - @rollup/plugin-json
