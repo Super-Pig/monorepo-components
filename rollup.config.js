@@ -24,7 +24,7 @@ isDev || plugins.push(terser())
 const root = path.resolve(__dirname, 'packages')
 
 module.exports = fs.readdirSync(root).filter(item => {
-  return fs.statSync(path.resolve(root, item).isDirectory())
+  return fs.statSync(path.resolve(root, item)).isDirectory()
 }).map(item => {
   const pkg = require(path.resolve(root, item, 'package.json'))
 
