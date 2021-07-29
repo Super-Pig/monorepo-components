@@ -7,5 +7,6 @@
   "license": "MIT",
   "scripts": {
     "del": "rimraf dist"
-  }
+  },
+  "gitHead": "1139a9df486125c2c1a712c640a75ffbe299dc82"
 }

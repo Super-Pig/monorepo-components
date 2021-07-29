@@ -1,1 +1,7 @@
-import t from"react";var e=function(){return t.createElement("div",null,"button")};export{e as default};
+import React from 'react';
+
+var index = (function () {
+  return /*#__PURE__*/React.createElement("div", null, "button");
+});
+
+export { index as default };
